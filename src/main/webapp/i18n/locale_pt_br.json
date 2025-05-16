@@ -185,5 +185,16 @@
   "NomeProduto": "Nome do produto",
   "Estoque": "Estoque",
   "Acoes": "Ações",
-  "Adicionar": "adicionar"
+  "Adicionar": "adicionar",
+  "RealizeAConsultaDoSeuEnderecoPeloCep": "Realize a consulta do seu endereço pelo CEP",
+  "PesquisarCep": "Pesquisar CEP",
+  "CEP": "CEP",
+  "Logradouro": "Logradouro",
+  "Complemento": "Complemento",
+  "Bairro": "Bairro",
+  "Localidade": "Localidade",
+  "UF": "UF",
+  "TesteDeBlocoHighcode": "Teste de bloco highcode",
+  "Numero1": "Número 1",
+  "Numero2": "Número 2"
 }

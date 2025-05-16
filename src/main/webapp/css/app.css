@@ -1,0 +1,12 @@
+.cardCustomizado{
+    background: antiquewhite;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+.cardCustomizado2{
+    background: brown;
+    color: white;
+    padding: 10px;
+}

@@ -195,5 +195,16 @@
   "NomeProduto": "Name of the product",
   "Estoque": "stockpile",
   "Acoes": "Shares",
-  "Adicionar": "add"
+  "Adicionar": "add",
+  "RealizeAConsultaDoSeuEnderecoPeloCep": "Check your address by the CEP",
+  "PesquisarCep": "Search ZIP code",
+  "CEP": "CEP",
+  "Logradouro": "Address",
+  "Complemento": "Complement",
+  "Bairro": "District",
+  "Localidade": "Locality",
+  "UF": "PHEW",
+  "TesteDeBlocoHighcode": "Highcode block test",
+  "Numero1": "Number 1",
+  "Numero2": "Number 2"
 }
