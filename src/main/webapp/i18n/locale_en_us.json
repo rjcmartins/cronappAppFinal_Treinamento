@@ -191,5 +191,9 @@
   "blockly.UserControl.Name": "",
   "blockly.UserControl.Description": "",
   "blockly.UserManager.Name": "",
-  "blockly.UserManager.Description": ""
+  "blockly.UserManager.Description": "",
+  "NomeProduto": "Name of the product",
+  "Estoque": "stockpile",
+  "Acoes": "Shares",
+  "Adicionar": "add"
 }

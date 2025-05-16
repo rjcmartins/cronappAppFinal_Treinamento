@@ -50,7 +50,7 @@
     "beforeInsert": {
       "type": "server",
       "blocklyMethod": "Saida_ValidarQtd",
-      "blocklyClass": "blockly.Produto",
+      "blocklyClass": "blockly.ProdutoSaida",
       "blocklyLanguage": "java",
       "blocklyParams": [
         {
@@ -61,17 +61,10 @@
         }
       ],
       "blocklyJson": {
-        "namespace": "blockly.Produto",
-        "sourcePath": "src/main/java/blockly/Produto.blockly",
+        "namespace": "blockly.ProdutoSaida",
+        "sourcePath": "src/main/java/blockly/ProdutoSaida.blockly",
         "language": "java",
         "methods": [
-          {
-            "name": "Entrada_AtualizarProdutoAdd",
-            "hasReturn": "true",
-            "params": [
-              "Consulta a Entidades\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
           {
             "name": "Saida_AtualizarProdutoAdd",
             "hasReturn": "true",
@@ -80,28 +73,14 @@
             ]
           },
           {
-            "name": "Entrada_ValidarQtd",
-            "hasReturn": "false",
+            "name": "Saida_AtualizarProdutoDeletar",
+            "hasReturn": "true",
             "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
+              "Consulta a Entidades\u0026lt;app.entity.Saida\u0026gt;"
             ]
           },
           {
             "name": "Saida_ValidarQtd",
-            "hasReturn": "false",
-            "params": [
-              "Saida\u0026lt;app.entity.Saida\u0026gt;"
-            ]
-          },
-          {
-            "name": "Entrada_AtualizarProdutoDeletar",
-            "hasReturn": "false",
-            "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
-          {
-            "name": "Saida_AtualizarProdutoDeletar",
             "hasReturn": "false",
             "params": [
               "Saida\u0026lt;app.entity.Saida\u0026gt;"
@@ -115,7 +94,7 @@
     "afterInsert": {
       "type": "server",
       "blocklyMethod": "Saida_AtualizarProdutoAdd",
-      "blocklyClass": "blockly.Produto",
+      "blocklyClass": "blockly.ProdutoSaida",
       "blocklyLanguage": "java",
       "blocklyParams": [
         {
@@ -126,17 +105,10 @@
         }
       ],
       "blocklyJson": {
-        "namespace": "blockly.Produto",
-        "sourcePath": "src/main/java/blockly/Produto.blockly",
+        "namespace": "blockly.ProdutoSaida",
+        "sourcePath": "src/main/java/blockly/ProdutoSaida.blockly",
         "language": "java",
         "methods": [
-          {
-            "name": "Entrada_AtualizarProdutoAdd",
-            "hasReturn": "true",
-            "params": [
-              "Consulta a Entidades\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
           {
             "name": "Saida_AtualizarProdutoAdd",
             "hasReturn": "true",
@@ -145,28 +117,14 @@
             ]
           },
           {
-            "name": "Entrada_ValidarQtd",
-            "hasReturn": "false",
+            "name": "Saida_AtualizarProdutoDeletar",
+            "hasReturn": "true",
             "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
+              "Consulta a Entidades\u0026lt;app.entity.Saida\u0026gt;"
             ]
           },
           {
             "name": "Saida_ValidarQtd",
-            "hasReturn": "false",
-            "params": [
-              "Saida\u0026lt;app.entity.Saida\u0026gt;"
-            ]
-          },
-          {
-            "name": "Entrada_AtualizarProdutoDeletar",
-            "hasReturn": "false",
-            "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
-          {
-            "name": "Saida_AtualizarProdutoDeletar",
             "hasReturn": "false",
             "params": [
               "Saida\u0026lt;app.entity.Saida\u0026gt;"
@@ -179,28 +137,21 @@
     "afterDelete": {
       "type": "server",
       "blocklyMethod": "Saida_AtualizarProdutoDeletar",
-      "blocklyClass": "blockly.Produto",
+      "blocklyClass": "blockly.ProdutoSaida",
       "blocklyLanguage": "java",
       "blocklyParams": [
         {
-          "id": "5014ab0b",
-          "name": "Saida\u0026lt;app.entity.Saida\u0026gt;",
-          "value": "data",
+          "id": "da0a609f",
+          "name": "Consulta a Entidades\u0026lt;app.entity.Saida\u0026gt;",
+          "value": "null",
           "type": "CUSTOM"
         }
       ],
       "blocklyJson": {
-        "namespace": "blockly.Produto",
-        "sourcePath": "src/main/java/blockly/Produto.blockly",
+        "namespace": "blockly.ProdutoSaida",
+        "sourcePath": "src/main/java/blockly/ProdutoSaida.blockly",
         "language": "java",
         "methods": [
-          {
-            "name": "Entrada_AtualizarProdutoAdd",
-            "hasReturn": "true",
-            "params": [
-              "Consulta a Entidades\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
           {
             "name": "Saida_AtualizarProdutoAdd",
             "hasReturn": "true",
@@ -209,28 +160,14 @@
             ]
           },
           {
-            "name": "Entrada_ValidarQtd",
-            "hasReturn": "false",
+            "name": "Saida_AtualizarProdutoDeletar",
+            "hasReturn": "true",
             "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
+              "Consulta a Entidades\u0026lt;app.entity.Saida\u0026gt;"
             ]
           },
           {
             "name": "Saida_ValidarQtd",
-            "hasReturn": "false",
-            "params": [
-              "Saida\u0026lt;app.entity.Saida\u0026gt;"
-            ]
-          },
-          {
-            "name": "Entrada_AtualizarProdutoDeletar",
-            "hasReturn": "false",
-            "params": [
-              "Entrada\u0026lt;app.entity.Entrada\u0026gt;"
-            ]
-          },
-          {
-            "name": "Saida_AtualizarProdutoDeletar",
             "hasReturn": "false",
             "params": [
               "Saida\u0026lt;app.entity.Saida\u0026gt;"
